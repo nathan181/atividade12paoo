@@ -10,9 +10,9 @@ import { ArrayType } from '@angular/compiler';
 export class CategoriasComponent implements OnInit {
  
   categorias = [
-    {id: 1, titulo: 'Romance'},
-    {id: 2, titulo: 'Terror'},
-    {id: 3, titulo: 'Tecnologia'}
+    {id: 1, nome: 'Infantojuvenis'},
+    {id: 2, nome: 'Poesia'},
+    {id: 3, nome: 'Romances'}
   ]
 
   constructor() {
@@ -23,8 +23,8 @@ export class CategoriasComponent implements OnInit {
   ngOnInit() {
    
   }
-  adicionarCategoria (): void{
-    console.log("testando a adiconarCategoria");
+  addCategoria (): void{
+    
     }s
 
 }
